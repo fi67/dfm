@@ -72,7 +72,7 @@ if(askJack){
             "question": e.target.question.value,
         };
 
-        fetch("https://fi67.github.io/dfm/first.html", {mode: "no-cors", method: "POST", body: contact})
+        fetch("https://fi67.github.io/dfm/index.html", {mode: "no-cors", method: "POST", body: contact})
             .then(response => {
                 console.log('hello response!', response);
             }).catch(() => {
