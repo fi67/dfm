@@ -1,5 +1,10 @@
 var BASE_PATH = '/dfm/';
 var CACHE_NAME = 'gih-cache-v7';
+var TEMP_IMAGE_CACHE_NAME = 'temp-cache-v1';
+var newsAPIJSON = "https://newsapi.org/v1/articles?source=bbc-news&apiKey=c0d26668d2dd4049bfd66155dde340b3";
+
+
+
 var CACHED_URLS = [
     // Our HTML
     BASE_PATH + 'first.html',
@@ -39,7 +44,10 @@ var CACHED_URLS = [
     BASE_PATH + 'styles.css',
     BASE_PATH + 'appimages/event-default.png',
 BASE_PATH + 'scripts.js',
-BASE_PATH + 'events.json'
+BASE_PATH + 'events.json',
+    BASE_PATH + 'second.html',
+BASE_PATH + 'appimages/news-default.jpg' 
+
 
     
 ];
